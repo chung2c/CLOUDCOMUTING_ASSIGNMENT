@@ -8,7 +8,7 @@
 			<div class="row">
 				<div class="col-md-6 col-sm-12 col-xs-12">
 					<div class="header-details">
-						<h1><b>ONE LẰN SHOP</b><br> CÁI TÊN NÓI NÊN TẤT CẢ</h1>
+						<h1><b>ONE</b><br> CÁI TÊN NÓI NÊN TẤT CẢ</h1>
 						<p>Khẳng định phong cách phái mạnh. Bộ sưu tập mới nhất của ONE LẰN SHOP.</p>
 						<a class="btn btn-danger" href="shop.aspx">XEM NGAY</a>
 					</div>
