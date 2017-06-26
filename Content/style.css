@@ -525,7 +525,7 @@ input:-ms-input-placeholder {
 .portfolio a h4{
 	text-transform:uppercase;
 	font-size:14px;
-	color:black;
+	color:red;
 	font-family: 'montserratregular';
 }
 .portfolio a h4:hover{
