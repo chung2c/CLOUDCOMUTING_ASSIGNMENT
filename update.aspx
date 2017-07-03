@@ -152,7 +152,7 @@
         <h3>HÓA ĐƠN</h3>
             <asp:DetailsView ID="DetailsView4" runat="server" Height="100px" Width="500px" AutoGenerateRows="False" CellPadding="4" DataKeyNames="ms" DataSourceID="hoadon" ForeColor="#333333" GridLines="None" style="margin-right: 20px" AllowPaging="True">
                 <AlternatingRowStyle BackColor="White" />
-                <CommandRowStyle BackColor="#D1DDF1" Font-Bold="True" />
+                <CommandRowStyle BackColor="#DEE8F5" Font-Bold="True" />
                 <EditRowStyle BackColor="#2461BF" />
                 <FieldHeaderStyle BackColor="#DEE8F5" Font-Bold="True" />
                 <Fields>
@@ -163,7 +163,7 @@
                 </Fields>
                 <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
                 <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                <PagerStyle BackColor="#DEE8F5" ForeColor="White" HorizontalAlign="Center" />
                 <RowStyle BackColor="#EFF3FB" />
         </asp:DetailsView>
         <asp:SqlDataSource runat="server" ID="hoadon" ConnectionString='<%$ ConnectionStrings:ConnectionString %>' DeleteCommand="DELETE FROM [hoa_don] WHERE [ms] = @ms" InsertCommand="INSERT INTO [hoa_don] ([ms], [trang_thai_hd], [ms_khach_hang]) VALUES (@ms, @trang_thai_hd, @ms_khach_hang)" SelectCommand="SELECT [ms], [trang_thai_hd], [ms_khach_hang] FROM [hoa_don]" UpdateCommand="UPDATE [hoa_don] SET [trang_thai_hd] = @trang_thai_hd, [ms_khach_hang] = @ms_khach_hang WHERE [ms] = @ms">
