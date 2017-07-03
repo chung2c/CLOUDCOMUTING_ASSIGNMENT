@@ -6,7 +6,7 @@
                 <asp:DetailsView ID="DetailsView1" runat="server" Height="100px" Width="500px" AutoGenerateRows="False" CellPadding="4" DataKeyNames="ms" DataSourceID="update" ForeColor="#333333" GridLines="None" style="margin-right: 20px" AllowPaging="True">
                 <AlternatingRowStyle BackColor="White" />
                 <CommandRowStyle BackColor="#D1DDF1" Font-Bold="True" />
-                <EditRowStyle BackColor="#2461BF" />
+                <EditRowStyle BackColor="#D1DDF1" />
                 <FieldHeaderStyle BackColor="#DEE8F5" Font-Bold="True" />
                 <Fields>
                     <asp:BoundField DataField="ms" HeaderText="ms" ReadOnly="True" SortExpression="ms" />
@@ -21,7 +21,7 @@
                 </Fields>
                 <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
                 <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                <PagerStyle BackColor="#D1DDF1" ForeColor="White" HorizontalAlign="Center" />
                 <RowStyle BackColor="#EFF3FB" />
             </asp:DetailsView>
             <asp:SqlDataSource ID="update" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [san_pham] WHERE [ms] = @original_ms AND [ms_chuyenmuc_sp] = @original_ms_chuyenmuc_sp AND [sku] = @original_sku AND [ten] = @original_ten AND [gia] = @original_gia AND [mo_ta] = @original_mo_ta AND [anh] = @original_anh AND [don_vi] = @original_don_vi" InsertCommand="INSERT INTO [san_pham] ([ms], [ms_chuyenmuc_sp], [sku], [ten], [gia], [mo_ta], [anh], [don_vi]) VALUES (@ms, @ms_chuyenmuc_sp, @sku, @ten, @gia, @mo_ta, @anh, @don_vi)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT * FROM [san_pham]" UpdateCommand="UPDATE [san_pham] SET [ms_chuyenmuc_sp] = @ms_chuyenmuc_sp, [sku] = @sku, [ten] = @ten, [gia] = @gia, [mo_ta] = @mo_ta, [anh] = @anh, [don_vi] = @don_vi WHERE [ms] = @original_ms AND [ms_chuyenmuc_sp] = @original_ms_chuyenmuc_sp AND [sku] = @original_sku AND [ten] = @original_ten AND [gia] = @original_gia AND [mo_ta] = @original_mo_ta AND [anh] = @original_anh AND [don_vi] = @original_don_vi">

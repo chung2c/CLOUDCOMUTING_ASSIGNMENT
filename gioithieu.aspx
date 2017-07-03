@@ -9,7 +9,7 @@
             <i class="glyphicon glyphicon-home"></i> FPT POLYTECHNIC HÀ NỘI<br><br>
             Giới thiệu về cửa hàng<br />
 
-Trước tiên, ONE LẰN SHOP xin cám ơn quý khách hàng đã quan tâm và sử dụng sản phẩm của ONE LẰN SHOP<br>
+ONE LẰN SHOP xin cám ơn quý khách hàng đã quan tâm và sử dụng sản phẩm của ONE LẰN SHOP<br>
 
 Hàng tiêu dùng nói chung và hàng tiêu dùng Thái Lan nói riêng ngày càng trở nên thân thiết với mọi gia đình. Trong xã hội đa dạng hàng hóa như hiện nay, sự lựa chon thông minh cho bản thân và gia đính chính là sự lựa chọn an toàn và chất lượng. Hơn nữa không phải chị em phụ nữ nào cũng có thời gian rảnh rỗi để đi mua sắm và lựa chọn kỹ càng. Chính vì thế, hình thức mua sắm shopping online đã ra đời, tiện lợi, không tốn nhiều thời gian tìm kiếm và ngày càng thu hút được sự quan tâm của người tiêu dùng bận rộn.<br><br>
 
