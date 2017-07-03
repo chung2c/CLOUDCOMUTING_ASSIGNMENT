@@ -82,10 +82,10 @@
                     <asp:BoundField DataField="so_dien_thoai" HeaderText="so_dien_thoai" SortExpression="so_dien_thoai" />
                     <asp:CommandField ShowInsertButton="True" ShowEditButton="True" ShowDeleteButton="True"></asp:CommandField>
                 </Fields>
-                <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
-                <RowStyle BackColor="#EFF3FB" />
+                <FooterStyle BackColor="#00ccff" Font-Bold="True" ForeColor="White" />
+                <HeaderStyle BackColor="#00ccff" Font-Bold="True" ForeColor="White" />
+                <PagerStyle BackColor="#00ccff" ForeColor="White" HorizontalAlign="Center" />
+                <RowStyle BackColor="#00ccff" />
         </asp:DetailsView>
             <asp:SqlDataSource runat="server" ID="khachhang" ConnectionString='<%$ ConnectionStrings:ConnectionString %>' SelectCommand="SELECT [ms], [email], [dia_chi], [so_thich], [so_dien_thoai], [ho_va_ten] FROM [khach_hang]" DeleteCommand="DELETE FROM [khach_hang] WHERE [ms] = @ms" InsertCommand="INSERT INTO [khach_hang] ([ms], [email], [dia_chi], [so_thich], [so_dien_thoai], [ho_va_ten]) VALUES (@ms, @email, @dia_chi, @so_thich, @so_dien_thoai, @ho_va_ten)" UpdateCommand="UPDATE [khach_hang] SET [email] = @email, [dia_chi] = @dia_chi, [so_thich] = @so_thich, [so_dien_thoai] = @so_dien_thoai, [ho_va_ten] = @ho_va_ten WHERE [ms] = @ms">
             <DeleteParameters>
